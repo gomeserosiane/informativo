@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Landing page institucional para soluções Oral Blue, Mais Blue e Sabemi com benefícios odontológicos, telemedicina e assistência residencial." />
+  <title>Grupo Blue & Sabemi | Proteção, Saúde e Assistência</title>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/global.css" />
+  <link rel="stylesheet" href="css/header.css" />
+  <link rel="stylesheet" href="css/hero.css" />
+  <link rel="stylesheet" href="css/sections.css" />
+  <link rel="stylesheet" href="css/cta.css" />
+  <link rel="stylesheet" href="css/footer.css" />
+  <link rel="stylesheet" href="css/animations.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+
+<body>
+  <div class="page-glow"></div>
+
+  <header class="site-header" id="header">
+    <div class="container header-content">
+      <a href="#inicio" class="brand brand-logo" data-target="home" aria-label="Voltar para início">
+        <img id="headerLogo" src="assets/images/logo-header-home.png" alt="Oral Blue, Mais Blue e Sabemi" />
+      </a>
+
+      <nav class="desktop-nav" aria-label="Navegação principal">
+        <button class="nav-link active" data-target="home">Início</button>
+        <button class="nav-link" data-target="oralblue">Oral Blue</button>
+        <button class="nav-link" data-target="maisblue">Mais Blue</button>
+        <button class="nav-link" data-target="sabemi">Sabemi</button>
+      </nav>
+
+      <a href="#contato" class="header-cta">Fale conosco</a>
+
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <nav class="mobile-nav" id="mobileNav" aria-label="Menu mobile">
+      <button class="nav-link active" data-target="home">Início</button>
+      <button class="nav-link" data-target="oralblue">Oral Blue</button>
+      <button class="nav-link" data-target="maisblue">Mais Blue</button>
+      <button class="nav-link" data-target="sabemi">Sabemi</button>
+      <a href="#contato" class="header-cta mobile-cta">Fale conosco</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero view active" id="home" data-view="home">
+      <div class="hero-bg"></div>
+      <div class="container hero-content reveal">
+        <span class="eyebrow">Proteção inteligente para saúde, família e residência</span>
+        <h1>Uma experiência completa para quem quer segurança sem complicação.</h1>
+        <p>Conheça soluções odontológicas, telemedicina e assistência residencial organizadas em uma landing page clara,
+          moderna e feita para transformar informação em interesse real.</p>
+        <div class="hero-actions">
+          <button class="btn-primary" data-target="oralblue">Explorar benefícios</button>
+          <a class="btn-secondary" href="#contato">Solicitar atendimento</a>
+        </div>
+        <div class="hero-stats">
+          <article><strong>24h</strong><span>suporte em serviços essenciais</span></article>
+          <article><strong>3</strong><span>frentes de proteção integradas</span></article>
+          <article><strong>+60</strong><span>coberturas e especialidades</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-view view" id="oralblue" data-view="oralblue">
+      <div class="section-shell oral-theme">
+        <div class="container">
+          <div class="section-hero reveal">
+            <div>
+              <span class="eyebrow">Oral Blue</span>
+              <h2>Cuidado odontológico com previsibilidade, rede credenciada e atenção preventiva.</h2>
+              <p>Um plano pensado para facilitar a rotina de quem valoriza sorriso saudável, atendimento acessível e
+                suporte em situações clínicas comuns do dia a dia.</p>
+            </div>
+            <div class="section-photo oral-photo"></div>
+          </div>
+          <div class="block reveal">
+            <h3>Plano Individual/Familiar</h3>
+            <div class="card-grid" data-list="oralIndividual"></div>
+          </div>
+          <div class="faq-grid reveal" data-faq="oralFaq"></div>
+          <div class="block reveal">
+            <h3>Plano Empresarial/Coletivo</h3>
+            <div class="card-grid" data-list="oralBusiness"></div>
+          </div>
+          <div class="faq-grid reveal" data-faq="oralUse"></div>
+          <div class="block reveal">
+            <h3>Prazo de carência</h3>
+            <div class="card-grid compact" data-list="oralGrace"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-view view" id="maisblue" data-view="maisblue">
+      <div class="section-shell mais-theme">
+        <div class="container">
+          <div class="section-hero reveal">
+            <div>
+              <span class="eyebrow">Mais Blue</span>
+              <h2>Telemedicina, orientação e acesso digital a especialidades para cuidar melhor da família.</h2>
+              <p>Uma solução prática para atendimentos eletivos, com agendamento digital, acesso seguro e uma jornada
+                simples para o segurado.</p>
+            </div>
+            <div class="section-photo mais-photo"></div>
+          </div>
+          <div class="block reveal">
+            <h3>Especialidades disponíveis</h3>
+            <div class="card-grid" data-list="maisSpecialties"></div>
+          </div>
+          <div class="faq-grid reveal" data-faq="maisFaq"></div>
+          <div class="info-panel reveal">
+            <h3>O que é telemedicina?</h3>
+            <p>É o atendimento médico realizado por canais digitais, permitindo orientação profissional à distância, com
+              segurança, privacidade e agilidade. A proposta é aproximar o segurado do cuidado médico em situações
+              eletivas, evitando deslocamentos desnecessários e tornando a jornada mais leve.</p>
+            <p>O atendimento não substitui urgência ou emergência, mas funciona como uma ponte eficiente para avaliação,
+              orientação inicial e direcionamento adequado.</p>
+          </div>
+          <div class="faq-grid reveal" data-faq="maisUse"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-view view" id="sabemi" data-view="sabemi">
+      <div class="section-shell sabemi-theme">
+        <div class="container">
+          <div class="section-hero reveal">
+            <div>
+              <span class="eyebrow">Sabemi</span>
+              <h2>Assistência residencial e suporte em momentos decisivos para manter sua casa protegida.</h2>
+              <p>Serviços essenciais para residência, checkup preventivo, suporte emergencial e orientações importantes
+                para eventos cobertos.</p>
+            </div>
+            <div class="section-photo sabemi-photo"></div>
+          </div>
+          <div class="block reveal">
+            <h3>Assistência Residencial</h3>
+            <div class="card-grid" data-list="sabemiHome"></div>
+          </div>
+          <div class="faq-grid reveal" data-faq="sabemiFaq"></div>
+          <div class="block reveal">
+            <h3>Checkup residencial e assistências</h3>
+            <div class="card-grid compact" data-list="sabemiCheckup"></div>
+          </div>
+          <div class="faq-grid reveal" data-faq="funeralFaq"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section" id="contato">
+      <div class="container cta-card reveal">
+        <div>
+          <span class="eyebrow">Atendimento consultivo</span>
+          <h2>Quer entender qual solução combina melhor com você?</h2>
+          <p>Preencha seus dados e fale diretamente pelo WhatsApp com uma mensagem pronta, clara e profissional.</p>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <label>Nome<input type="text" id="name" placeholder="Seu nome" required></label>
+          <label>Email<input type="email" id="email" placeholder="seuemail@email.com" required></label>
+          <label>Assunto<textarea id="subject" placeholder="Quero saber mais sobre..." required></textarea></label>
+          <button class="btn-primary" type="submit">Enviar pelo WhatsApp</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div><a class="brand footer-brand footer-logo" href="#inicio" data-target="home"
+          aria-label="Voltar para início"><img src="assets/images/logo-footer.png"
+            alt="Oral Blue, Mais Blue e Sabemi" /></a>
+        <p>Landing page informativa com foco em proteção, clareza e conversão.</p>
+      </div>
+      <div>
+        <h4>Navegue</h4>
+        <button data-target="oralblue">Oral Blue</button>
+        <button data-target="maisblue">Mais Blue</button>
+        <button data-target="sabemi">Sabemi</button>
+      </div>
+      <div>
+        <h4>Contato</h4><a href="https://wa.me/5591981643641" target="_blank" rel="noopener">WhatsApp: (91)
+          98164-3641</a><a href="#contato">Solicitar atendimento</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      © 2026 Grupo Blue & Sabemi. Todos os direitos reservados.
+      Desenvolvido por Reginaldo Lima.
+    </div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>

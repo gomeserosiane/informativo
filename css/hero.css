@@ -1,0 +1,79 @@
+.hero {
+    position: relative;
+    isolation: isolate;
+    min-height: calc(100vh - 82px);
+    display: none;
+    align-items: center
+}
+
+.hero.active {
+    display: flex
+}
+
+.hero-bg {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg, rgba(6, 21, 43, .86), rgba(6, 21, 43, .38), rgba(6, 21, 43, .16)), url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=1800&q=80') center/cover;
+    z-index: -2
+}
+
+.hero-bg:after {
+    content: "";
+    position: absolute;
+    inset: auto 0 0;
+    height: 38%;
+    background: linear-gradient(transparent, #f7fbff)
+}
+
+.hero-content {
+    max-width: 760px;
+    padding: 80px 0 130px;
+    color: #fff
+}
+
+.hero h1 {
+    font-size: clamp(2.7rem, 6vw, 5.9rem);
+    line-height: .95;
+    letter-spacing: -.07em;
+    margin: 20px 0
+}
+
+.hero p {
+    max-width: 650px;
+    color: rgba(255, 255, 255, .84);
+    font-size: 1.12rem;
+    line-height: 1.75
+}
+
+.hero-actions {
+    display: flex;
+    gap: 14px;
+    flex-wrap: wrap;
+    margin-top: 30px
+}
+
+.hero-stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+    margin-top: 44px;
+    max-width: 760px
+}
+
+.hero-stats article {
+    padding: 18px;
+    border: 1px solid rgba(255, 255, 255, .25);
+    background: rgba(255, 255, 255, .12);
+    backdrop-filter: blur(16px);
+    border-radius: 22px
+}
+
+.hero-stats strong {
+    display: block;
+    font-size: 2rem
+}
+
+.hero-stats span {
+    color: rgba(255, 255, 255, .78);
+    font-size: .9rem
+}
