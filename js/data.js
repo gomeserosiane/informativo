@@ -22,7 +22,7 @@ const DATA = {
     ['Via Aplicativo VIDACLASS','O Segurado deve efetuar login com CPF e senha cadastrados, selecionar “Atendimento Médico Online” e clicar em “Falar com um Médico”. Para 1º acesso, a senha é “MUDAR” + os 3 primeiros dígitos do CPF do Segurado. Exemplo: MUDAR123.'],
     ['Via plataforma/website','Acesse https://sabemiseguradora.vidaclass.com.br/, faça login com CPF e senha, selecione “Atendimento Médico Online” e clique em “Falar com um Médico”. Garanta ambiente privado e boa conexão.'],
     ['Via WhatsApp (11) 98940-6013','O Segurado poderá acionar a assistência pelo WhatsApp, informar sua necessidade, digitar o CPF e aguardar transferência para um atendente. O CPF ficará vinculado ao telefone usado no primeiro acionamento.'],
-    ['Via central de atendimento','O Segurado poderá acionar a central, informar CPF e necessidade. Depois será transferido para um atendente que dará suporte e enviará link por email ou WhatsApp.']
+    
   ],
   sabemiFaq: [
     ['Baby sitter ou berçário','Se, em consequência de Acidente Pessoal, o Segurado permanecer hospitalizado por mais de 3 dias, sem outro adulto para cuidar de dependentes menores de 14 anos, a central orientará sobre despesas com baby-sitter ou berçário. Limite: mão de obra até R$ 150,00 por dia, limitado a 3 diárias e 1 acionamento por ano.'],
